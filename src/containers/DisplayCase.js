@@ -1,8 +1,7 @@
 import React from 'react';
-import Article from '../components/Article';
+import Article from '../components/article';
 import './DisplayCase.css';
 import { articles } from '../components/articles';
-
 const DisplayCase = () => {
     return(
         <div className='displayCase'>Display Case
