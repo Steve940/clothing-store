@@ -1,9 +1,13 @@
 import React from 'react';
 import './Header.css';
+import logo from '../components/images/Logo.png';
 
 const Header = () => {
     return(
-        <div className='header'>Header</div>
+        <div className='header'>
+        <img src={logo} alt="SDC"/>
+        Header
+        </div>
     );
 }
 
