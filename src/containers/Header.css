@@ -1,6 +1,38 @@
 .header {
-    border-bottom: 5px solid black;
-    border-top: 5px solid black;
-    color:red;
-    height:75px;
+    align-items: center;
+    background-color:black;
+    border:3px solid red;
+    color:white;
+    display:flex;
+    height:55px;
+    justify-content: space-between;
+    padding:0px 100px 0px 100px;
+}
+
+p {
+    font-size:30px;
+    margin:0;
+    padding:0;
+}
+
+.header img {
+    height:55px;
+}
+
+@media only screen and (max-width:1000px) {
+    .header {
+        padding: 0px 50px 0px 50px;
+    }
+    p {
+        font-size:20px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .header {
+        padding: 0px 20px 0px 20px;
+    }
+    p {
+        font-size:13px;
+    }
 }
